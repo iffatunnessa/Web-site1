@@ -1,0 +1,58 @@
+body{
+    background-image: url("../includes/images.php?id=2");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+label{
+    color: white;
+}
+.form{
+    background: rgba(0,0,0,0.06);
+    margin: 100px 0px 100px 0px;
+    padding: 45px;
+    border: 1px solid white;
+    color: white;
+    box-shadow: 2px 3px 25px 8px rgba(0,0,0,0.6);
+    transition: .4s;
+}
+.div-account {
+    background-color: #ffd31f;
+    color: #5a5b59;
+    font-size: 20px;
+    padding: 20px 0px 20px 20px;
+    margin-left: -220px;
+    margin-top: 50px;
+    width: 270px;
+    box-shadow: 2px 3px 25px 8px rgba(0, 0, 0, 0.4);
+    font-family: "Roman SD";
+}
+.alert-error{
+    position: center;
+    color: #791b08;
+    font-size: 40px;
+}
+
+@media (max-width: 565px) {
+    .form {
+        border: none;
+        margin-top: 200px;
+        box-shadow: 0px 0px 0px 0px rgba(0, 0, 0, 0);
+    }
+
+    .div-account {
+        width: 100%;
+        margin: 0px;
+        margin-top: -100px;
+        float: none;
+    }
+}
+@media(max-width: 1000px) {
+    .div-account {
+        width: 100%;
+        margin: 0px;
+        margin-top: -100px;
+        float: none;
+    }
+}

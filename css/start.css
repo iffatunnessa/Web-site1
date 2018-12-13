@@ -1,0 +1,66 @@
+
+.banner{
+    background:url("../includes/images.php?id=1");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    position: absolute;
+    height: 300px;
+}
+.container{
+}
+.col-md-4{
+    margin-top: 320px;
+    margin-bottom: 20px;
+    color: #000000;
+    text-align: center;
+    font-family:Bahnschrift;
+}
+
+.banner1{
+    background:url("../includes/images.php?id=1");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:100%;
+    height: 300px;
+}
+
+.foot-banner{
+    background-color:brown;
+    height: 200px;
+    width:100%;
+    background-repeat: no-repeat;
+    position: center;
+}
+
+.btn{
+    font-size: 20px;
+}
+
+@media (max-width: 565px) {
+    .col-md-4{
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #000000;
+        text-align: center;
+        font-family:Bahnschrift;
+        height:100px;
+    }
+}
+@media(max-width: 1000px) {
+    .col-md-4{
+        margin-top: 0;
+        margin-bottom: 20px;
+        color: #000000;
+        text-align: center;
+        font-family:Bahnschrift;
+        height:100px;
+
+    }
+}
+
+

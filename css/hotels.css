@@ -1,0 +1,49 @@
+body{
+    background-color: #f5f5f5;
+}
+.header{
+    padding: 30px;
+    font-family: Lucida Handwriting;
+}
+.banner{
+    background: url('../includes/images.php?id=7');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+    width: 100%;
+}
+.col-md-10{
+    background: white;
+    margin-top: -150px;
+}
+table{
+    padding: 10px;
+    font-size: 18px;
+}
+th{
+    background-color: gainsboro;
+    text-align: center;
+}
+td{
+    text-align: center;
+}
+
+
+@media (max-width: 565px) {
+    .col-md-10{
+        background: white;
+        margin-top: -150px;
+    }
+    table{
+        padding: 1px;
+        font-size: 5px;
+    }
+}
+@media(max-width: 1000px) {
+    table{
+        padding: 1px;
+        font-size: 5px;
+    }
+}
+

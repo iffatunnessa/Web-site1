@@ -1,0 +1,33 @@
+.side-nav{
+    padding: 5px;
+    z-index: 9999!important;
+    position: sticky;
+    top:0;
+}
+
+li a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+
+}
+
+li a:hover{
+    display:inline-block;
+    color: #0f2486;
+    background-color: #c4dffd;
+    text-decoration: none;
+}
+ul{
+     list-style-type: none;
+     float: right;
+     padding: 0;
+     margin: 0;
+    color: gainsboro;
+}
+
+li {
+    display: inline-block;
+    font-size: 18px;
+}

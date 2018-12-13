@@ -1,0 +1,76 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    //position: fixed;
+}
+.glyphicon{
+    color: white;
+}
+.nav{
+    background-color: black;
+   position: fixed;
+}
+
+ li {
+    float: left;
+     color: white;
+     text-align: center;
+
+}
+li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background: #585858;
+    text-decoration: none;
+    color: white;
+}
+
+.drop-down-content{
+    display: none;
+    position: absolute;
+    text-align: left;
+    background: gainsboro;
+    float: left;
+}
+
+.drop-down-content a{
+    padding: 10px 30px 10px;
+    color: black;
+}
+.drop-down:hover .drop-down-content{
+    display: block;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url("../image/bg.jpg");
+
+    /* Set a specific height */
+    height: 500px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    margin-top:200px ;
+    transition: .5ms;
+    font-family: "Luna";
+
+}
+
+
+
+
+
+

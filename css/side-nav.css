@@ -1,0 +1,24 @@
+.side-nav{
+    padding: 60px 20px 20px 20px;
+    z-index: 9999!important;
+    top:0;
+    position: sticky;
+
+}
+ul.side-ul{
+    list-style-type: none;
+}
+li.side-li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    width: 134px;
+
+}
+
+li.side-li a:hover{
+    display: block;
+    color: #0f2486;
+    background-color: #c4dffd;
+    text-decoration: none;
+}
